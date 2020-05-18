@@ -1,0 +1,130 @@
+@keyframes animationdefou {
+
+    from {
+        transform: translateX(0px);
+    }
+
+    10% {
+        transform: translateX(-40px);
+        transform: translateY(-20);
+    }
+
+    20% {
+        transform: translateX(50px);
+        transform: translateY(20px);
+        transform: scaleZ(20px);
+    }
+
+    30% {
+        transform: translateY(10px);
+        color: crimson;
+        
+    }
+
+    40% {
+        transform: translateY(-10px);
+        transform: translateX(-20px);
+        color: white;
+        transform: scaleZ(60px);
+    }
+
+    60% {
+        transform: translateX(70px) ;
+        transform: translateY(0px);
+        
+    }
+
+    80% {
+        transform: translate(-20px,-10px);
+        color: white;
+    }
+
+    to {
+        transform: translate(30px, 20px) ;
+        color: crimson;
+    }
+}
+
+
+h1:hover {
+
+    animation: animationdefou 0.5s alternate linear infinite;
+}
+
+
+div
+{
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: #008;
+}
+
+div:hover
+{
+    animation: movemydiv 2s steps(3); /* 3 étapes */
+}
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    background-image: url(image/Danger1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+   
+    
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 5% auto 10% auto;
+ 
+    
+}
+
+h1 {
+    width: 500px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding: 10px 0px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: crimson;
+  
+}
+
+button {
+    background-color: crimson;
+    color: ivory;
+    border: none;
+    border-left: 3px lavender;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border:2px solid white;
+}
+
+button:hover {
+    background-color: seashell;
+    color: crimson;
+}
